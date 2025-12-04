@@ -7,13 +7,13 @@ public class App {
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jFrame.setResizable(false);
         
-        FlappyBird flappyBird = new FlappyBird();
-        jFrame.add(flappyBird);
+        FlappyBirdPanel flappyBirdPanel = new FlappyBirdPanel();
+        jFrame.add(flappyBirdPanel);
         
         jFrame.pack();
         // jFrame.setSize(1000,1000);
         jFrame.setLocationRelativeTo(null);
-        flappyBird.requestFocus();
+        flappyBirdPanel.requestFocus();
         jFrame.setVisible(true);
         
     }

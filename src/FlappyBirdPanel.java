@@ -3,7 +3,7 @@ import java.awt.event.*;
 import java.util.ArrayList;
 import javax.swing.*;
 
-public class FlappyBird extends JPanel implements ActionListener, KeyListener{
+public class FlappyBirdPanel extends JPanel implements ActionListener, KeyListener{
     private int width = 360;
     private int height = 640;
     private Image bottomPipeImage;
@@ -62,7 +62,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener{
     private Timer placePipeLoop;
     private boolean gameOver = false;
 
-    public FlappyBird()
+    public FlappyBirdPanel()
     {
         setPreferredSize(new Dimension(width, height));
         setFocusable(true);
