@@ -4,8 +4,8 @@ import java.awt.event.KeyListener;
 
 public class FlappyBird implements KeyListener{
     
-    private int WIDTH = 34;
-    private int HEIGHT = 24;
+    static int WIDTH = 34;
+    static int HEIGHT = 24;
     private int x;
     private int y;
     private int velocityY = 0;
@@ -29,15 +29,6 @@ public class FlappyBird implements KeyListener{
         return this.y;
     }
 
-    public int getWidth()
-    {
-        return this.WIDTH;
-    }
-
-    public int getHeight()
-    {
-        return this.HEIGHT;
-    }
     
     public Image getImage()
     {
